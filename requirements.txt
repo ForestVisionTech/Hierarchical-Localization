@@ -1,5 +1,3 @@
-torch>=1.1
-torchvision>=0.3
 numpy
 opencv-python
 tqdm>=4.36.0
@@ -10,4 +8,16 @@ h5py
 pycolmap>=0.6.0
 kornia>=0.6.11
 gdown
+torch --index-url https://download.pytorch.org/whl/cu124
+torchvision --index-url https://download.pytorch.org/whl/cu124
+torchaudio --index-url https://download.pytorch.org/whl/cu124
+git+https://github.com/facebookresearch/segment-anything.git
+pycocotools
+matplotlib
+onnxruntime
+onnx
+ultralytics
+jupyterlab
+notebook
+boto3
 # lightglue @ git+https://github.com/cvg/LightGlue
