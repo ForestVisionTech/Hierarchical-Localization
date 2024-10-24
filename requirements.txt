@@ -8,9 +8,9 @@ h5py
 pycolmap>=0.6.0
 kornia>=0.6.11
 gdown
-torch --index-url https://download.pytorch.org/whl/cu124
-torchvision --index-url https://download.pytorch.org/whl/cu124
-torchaudio --index-url https://download.pytorch.org/whl/cu124
+torch
+torchvision
+torchaudio
 git+https://github.com/facebookresearch/segment-anything.git
 pycocotools
 matplotlib
@@ -20,4 +20,3 @@ ultralytics
 jupyterlab
 notebook
 boto3
-# lightglue @ git+https://github.com/cvg/LightGlue
