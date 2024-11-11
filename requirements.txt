@@ -19,3 +19,4 @@ ultralytics
 jupyterlab
 notebook
 boto3
+scikit-image
