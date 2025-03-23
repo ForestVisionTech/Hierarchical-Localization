@@ -168,7 +168,8 @@ def main(
     sfm_dir.mkdir(parents=True, exist_ok=True)
     database = sfm_dir / "database.db"
 
-    create_empty_db(database)
+    # create_empty_db(database)
+    print('skipping the new database creation')
     import_images(image_dir, database, camera_mode, image_list, image_options)
     image_ids = get_image_ids(database)
     import_features(image_ids, database, features)
